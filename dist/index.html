@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythm</title>
+    <link rel="stylesheet" href="output.css">
+    
+
+</head>
+<body>
+
+      <!-- Navigation -->
+<nav class="bg-white border-gray-200 dark:bg-gray-900 border p-5">
+  <div class="border container flex flex-wrap items-center justify-between mx-auto p-3 rounded-3xl">
+  <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Rhythm</span>
+  </a>
+  <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+      <button type="button" class="text-white bg-pink-500 hover:bg-pink-700 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-3xl text-sm px-4 py-2 text-center dark:bg-pink-500 dark:hover:bg-pink-600 dark:focus:ring-blue-800">Join Us</button>
+      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+    <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <li>
+        <a href="#about" class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500" aria-current="page">About</a>
+      </li>
+      <li>
+        <a href="#services" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+      </li>
+      <li>
+        <a href="#pricing" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Pricing</a>
+      </li>
+      <li>
+        <a href="#product" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Product</a>
+      </li>
+      <li>
+        <a href="#contact" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+      <!-- Hero -->
+       <header id="home">
+            <div class=" flex flex-col lg:flex-row gap-5 justify-center container mx-auto py-20 px-3 md:px-20">
+                <div class="basis-1/2 flex gap-3 justify-center [&>.image:hover]:border-indigo-500 [&>.image:hover]:w-56 [&>.image:has(~.image:hover)]:w-12 [&>.image:has(~.image:hover)]:md:w-24">
+                    <img src="https://i.pinimg.com/474x/21/b8/a9/21b8a99de5da684f7975f3128b5f7ccc.jpg" alt="hero1" class="image border-4 w-56 h-[400px] md:h-[500px] object-cover -4 rounded-full transition-all duration-500">
+                    <img src="https://i.pinimg.com/736x/2d/55/7e/2d557e1b3ae853647b7beb285aa229f7.jpg" alt="hero2" class="image border-4 w-12 md:w-24 h-[400px] md:h-[500px] object-cover -4 rounded-full transition-all duration-500">
+                    <img src="/img/daniel.jpg" alt="hero3" class="image border-4 w-12 md:w-24 h-[400px] md:h-[500px] object-cover -4 rounded-full transition-all duration-500">
+                </div> 
+                <div class="basis-1/2 ">
+                    <h2 class="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-pink-500 font-serif">Music Is</h2>
+                    <h1 class="text-5xl sm:text-6xl  lg:text-7xl font-extrabold text-indigo-800 font-mono mb-8">Everything</h1>
+                    <p class="text-1xl mb-8">Lorem ipsum dolor sitextra amet consectetur adipisicing elit. Aliquam nulla sunt repellendus ab quos. Repellendus eaque dolorem laudantium aspernatur, eveniet rem voluptate assumenda, eos in molestias, culpa iste necessitatibus aperiam?</p>
+                    <div class=" flex flex-wrap gap-5 mb-8">
+                        <div class="flex gap-2">
+                            <span class="text-5xl font-bold text-cyan-700 font-sans">21</span>
+                            <span class="font-bold font-mono">Top <br> Artists</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <span class="text-5xl font-bold text-cyan-700 font-sans">43</span>
+                            <span class="font-bold font-mono">Hot <br> Musics</span>
+                        </div>
+                        <div class="flex gap-2">
+                            <span class="text-5xl font-bold text-cyan-700 font-sans">5+</span>
+                            <span class="font-bold font-mono">New <br> Albumns</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-center w-fit bg-gray-200 items-center">
+                        <img src="https://i.pinimg.com/236x/2d/14/93/2d149339bf261020117e0e03cbd689a5.jpg" alt="" class="w-12 sm:w-16 h-12 sm:h-16 rounded-full object-cover relative border  border-2">
+                        <img src="https://i.pinimg.com/474x/6b/0d/14/6b0d148034656a58cd96d5bb5a9622c1.jpg" alt="" class="w-12 sm:w-16 h-12 sm:h-16 rounded-full object-cover relative right-4 border  border-2">
+                        <img src="https://i.pinimg.com/736x/55/a3/bd/55a3bdd43b4502168922e170d8bf7d46.jpg" alt="" class="w-12 sm:w-16 h-12 sm:h-16 rounded-full object-cover relative right-8 border  border-2">
+                        <div class="w-12 sm:w-16 h-12 sm:h-16 rounded-full bg-gray-600 flex justify-center items-center text-white font-bold relative right-12 border  border-2">20+</div>
+                        <div class="relative right-10 text-xl font-bold">Top <br> Artists</div>
+                        <a href="#" class="border items-center gap-3 p-3 rounded-full hover:border-indigo-500 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 -rotate-45 hover:rotate-0 transition duration-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                              </svg>
+                              
+                        </a>
+                    </div>
+                   
+                </div>
+            </div>
+       </header>
+      <!--Video Thumbnail-->
+      <section>
+        <div class=" container mx-auto py-20 px-3 md:px-20">
+          <h5 class="text-center font-serif text-xl mb-3 font-bold ">World Top Song</h5>
+          <h4 class="text-center font-serif text-3xl mb-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h4>
+          <div class="w-full h-[80vh] rounded-xl border border-red-500 relative overflow-hidden">
+            <img src="https://i.pinimg.com/736x/55/a3/bd/55a3bdd43b4502168922e170d8bf7d46.jpg" alt="" class="w-full h-full object-cover absolute top-0 left-0">
+            <div class="w-full h-full  bg-gradient-to-r from-red-500/50 via-indigo-500/50 to-gray-500/50 absolute top-0 left-0">Clairo</div>
+           <a href="https://www.youtube.com/watch?v=i_rw1C9eG_Q&pp=ygULanVuYSBjbGFpcm8%3D">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-14 absolute top-0 bottom-0 left-0 right-0 m-auto  text-red-600 hover:text-red-700" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+              </svg>
+           </a>
+          </div> 
+         </div>
+      </section>
+      <!-- About us-->
+      <section id="about" >
+        <div class=" flex flex-col md:flex-row gap-4 items-center container mx-auto py-20 px-3 md:px-20">
+            <div class="basis-1/2">
+                <img src="/img/mendes.jpg" alt="" class="object-cover w-full h-[70vh] sm:w-5/6 rounded-3xl">
+            </div>
+            <div class="basis-1/2 pb-20"> 
+                    <h3 class="text-xl flex items-center gap-3 font-semibold mb-3">
+                        <div class="bg-indigo-500 w-12 py-px flex items-center"></div>
+                        <span class="text-1xl">Shawn Mendes</span>
+                        </h3>
+                
+                <h1 class="text-3xl font-bold text-indigo-500 font-serif mb-3">Canadian <br> singer-songwriter
+                </h1>
+                <p>Shawn Peter Raul Mendes is a Canadian singer-songwriter. He gained a following in 2013 when he posted song covers on the video-sharing platform Vine.</p>
+                <div class="mt-8 flex gap-3 items-center">
+                   <a href="" class="py-3 px-5 bg-indigo-500 rounded-full text-white hover:bg-white hover:text-indigo-500 hover:border hover:border-indigo-500 transition">Know More</a>
+                   <a href="" class="py-3 px-5 bg-indigo-500 rounded-full text-white hover:bg-white hover:text-indigo-500 hover:border hover:border-indigo-500 transition flex gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-bag size-5" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                          </svg>
+                        <span> Buy Now</span></a>
+                      </a>
+                </div>
+               
+            </div>
+        </div>
+      </section> 
+      <!-- Services -->
+     <section id="services">
+        <div class="container mx-auto py-20 px-3 md:px-20">
+            <h3 class="text-xl flex items-center gap-3 font-semibold mb-5">
+                <div class="bg-indigo-500 w-12 py-px flex items-center"></div>
+                <span class="font-bold text-2xl font-mono">Services</span>
+                </h3>
+                <div class="flex flex-col gap-3 sm:flex-row">
+                 <h1 class="text-5xl text-cyan-600 basis-1/2 text-semibold">Lorem,<br> ipsum dolor.</h1>
+                 <p class="font-sans basis-1/2 sm:text-right text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, veniam distinctio maiores esse vero optio saepe consequatur neque maxime cupiditate molestiae, voluptatum asperiores? Sunt amet culpa consequuntur eos facere.</p>
+                 </div>
+       
+                   <div class="border mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                    <div class="border p-10 rounded-3xl hover:text-indigo-800 transition-all duration-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-16 text-indigo-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z" />
+                          </svg>
+                            <h3 class="font-semibold text-3xl my-3">Lorem, ipsum dolor.</h3>    
+                            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad accusantium harum eius unde aliquid.</p>                      
+                    </div>
+                    <div class="border p-10 rounded-3xl hover:text-indigo-800 transition-all duration-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-16 text-indigo-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                          </svg>
+                          
+                            <h3 class="font-semibold text-3xl my-3">Lorem, ipsum dolor.</h3>    
+                            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad accusantium harum eius unde aliquid.</p>                      
+                    </div>
+                    <div class="border p-10 rounded-3xl hover:text-indigo-800 transition-all duration-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-16 text-indigo-500 ">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                          </svg>
+                          
+                            <h3 class="font-semibold text-3xl my-3">Lorem, ipsum dolor.</h3>    
+                            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad accusantium harum eius unde aliquid.</p>                      
+                    </div>
+                    <div class="border p-10 rounded-3xl hover:text-indigo-800 transition-all duration-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-16 text-indigo-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                          </svg>
+                          
+                            <h3 class="font-semibold text-3xl my-3">Lorem, ipsum dolor.</h3>    
+                            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad accusantium harum eius unde aliquid.</p>                      
+                    </div>
+                    <div class="border p-10 rounded-3xl hover:text-indigo-800 transition-all duration-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-16 text-indigo-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />
+                          </svg>
+                          
+                            <h3 class="font-semibold text-3xl my-3">Lorem, ipsum dolor.</h3>    
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad accusantium harum eius unde aliquid.</p>                      
+                    </div>
+                    <div class="border p-10 rounded-3xl hover:text-indigo-800 transition-all duration-500  flex">
+                       <a href="" class="flex gap-5 group">
+                       <span class="text-xl">See More</span>    
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 -rotate-45 transition duration-500 group-hover:rotate-0">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                      </svg>
+                    </a>        
+                    </div>
+              
+                   </div>
+                  
+                 
+             
+      </section> 
+    
+      <!-- Top Songs -->
+     <section class=" bg-gray-200">
+        <div class="container mx-auto gap-5 py-20 px-3 md:px-20 flex flex-col md:flex-row">
+        <div class="basis-2/6 border">
+            <h3 class="text-xl flex items-center gap-3 font-semibold mb-5">
+                <div class="bg-indigo-500 w-12 py-px flex items-center"></div>
+                <span class="font-bold text-2xl font-mono">Top Songs</span>
+                </h3>
+                <h1 class="text-5xl text-cyan-700 mb-5">Lorem,<br> ipsum dolor.</h1 >
+                    <p class="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi perspiciatis qui, tenetur quibusdam incidunt minus, autem consequatur vel quam neque sequi odit numquam voluptatibus sed recusandae iusto rem facilis quaerat.</p>
+                    <a href="#" class="flex gap-5 items-center group">
+                        <span class="text-xl">See More</span>
+                       <span class="border border-indigo-300 p-2 rounded-full"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 -rotate-45 group-hover:rotate-0 transition duration-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                      </svg>
+                    </span>
+                          
+                    </a>
+        </div>
+        <div class="basis-4/6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:pl-20 border">
+            <div class="group h-80 relative border rounded-3xl border-red-500 overflow-hidden">
+               <img src="https://i.pinimg.com/474x/d2/94/b6/d294b63acc0cba707a16b2c7ee7112c6.jpg" alt="" class="w-full h-full object-cover absolute ">
+               <div class="w-full h-full absolute  bg-gradient-to-r from-red-500/50 via-indigo-500/50 to-gray-500/50"></div>
+               <div class="absolute -bottom-7 text-white group-hover:-translate-y-20 px-2 transition-all duration-500">
+                   <h4 class="text-2xl font-bold mb-2">Are You Bored Yet</h4>
+                   <h3 class="text-xl font-semibold invisible group-hover:visible transition-all">Dylan Minnette</h3>
+                   <div class="flex mt-5 gap-3 ">
+                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-facebook size-6 hover:text-blue-700" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg>
+                      <a href="https://youtu.be/wIgmyE5Juzw?si=MTQa-OSXA8U_KFxD">
+                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-youtube size-6 hover:text-red-600" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                          </svg>
+                      </a>
+                      <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-spotify size-6 hover:text-green-500" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/>
+                      </svg>
+                   </div>
+               </div>
+            </div>
+            <div class="group h-80 relative border rounded-3xl border-red-500 overflow-hidden">
+               <img src="/img/mybaby.jpg" alt="" class="w-full h-full object-cover absolute ">
+               <div class="w-full h-full absolute  bg-gradient-to-r from-red-500/50 via-indigo-500/50 to-gray-500/50"></div>
+               <div class="absolute -bottom-7 text-white group-hover:-translate-y-20 px-2 transition-all duration-500">
+                   <h4 class="text-2xl font-bold mb-2">Deja Vu</h4>
+                   <h3 class="text-xl font-semibold invisible group-hover:visible transition-all">Olivia Rodrigo</h3>
+                   <div class="flex mt-5 gap-3 ">
+                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-facebook size-6 hover:text-blue-700" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg>
+                     <a href="https://youtu.be/cii6ruuycQA?si=_MaGRinSdzfKiOGq">
+                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-youtube size-6 hover:text-red-600" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                          </svg>
+                     </a>
+                      <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-spotify size-6 hover:text-green-500" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/>
+                      </svg>
+                   </div>
+               </div>
+            </div>
+            <div class="group h-80 relative border rounded-3xl border-red-500 overflow-hidden">
+               <img src="/img/mybabe.jpg" alt="" class="w-full h-full object-cover absolute ">
+               <div class="w-full h-full absolute  bg-gradient-to-r from-red-500/50 via-indigo-500/50 to-gray-500/50"></div>
+               <div class="absolute -bottom-7 text-white group-hover:-translate-y-20 px-2 transition-all duration-500">
+                   <h4 class="text-2xl font-bold mb-2">Someone Will Love You Better</h4>
+                   <h3 class="text-xl font-semibold invisible group-hover:visible transition-all">Johnny Orlando</h3>
+                   <div class="flex mt-5 gap-3 ">
+                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-facebook size-6 hover:text-blue-700" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg>
+                     <a href="https://youtu.be/1skpo8ziUsA?si=q14c_dngMhaidJhF"> 
+                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-youtube size-6 hover:text-red-600" viewBox="0 0 16 16">
+                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                      </svg>
+                    </a>
+                      <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-spotify size-6 hover:text-green-500" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/>
+                      </svg>
+                   </div>
+               </div>
+            </div>
+            
+        </div>
+                   
+        
+        </div>
+      </section> 
+      <!-- Pricing -->
+     <section id="pricing">
+        <div class="container mx-auto py-20 px-3 md:px-20">
+            <h3 class="text-xl flex items-center gap-3 font-semibold mb-5">
+                <div class="bg-indigo-500 w-12 py-px flex items-center"></div>
+                <span class="font-bold text-2xl font-mono">Pricing</span>
+                </h3>
+                <div class="flex flex-col md:flex-row gap-5">
+                 <h1 class="text-5xl text-cyan-600 basis-1/2 text-semibold">Lorem,<br> ipsum dolor.</h1>
+                 <p class="font-sans basis-1/2 md:text-right text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, veniam distinctio maiores esse vero optio saepe consequatur neque maxime cupiditate molestiae, voluptatum asperiores? Sunt amet culpa consequuntur eos facere.</p>
+                 </div>
+                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-5">
+                    <div class="p-3 border rounded-3xl">
+                        <h3 class="text-2xl font-semibold mb-8">Lorem, ipsum dolor.</h3>
+                        <p class="mb-8">Lorem ipsum dolor sit amet consectetur.</p>
+                         <p class="mb-8"><span class="text-5xl font-bold font-mono ">20$</span>/month</p>
+                         <a href=""class="bg-indigo-500 block px-5 py-3 rounded-lg text-center w-full text-white font-sans hover:bg-indigo-700 mb-8">Buy Plan</a>
+                         <ul>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+
+                                
+                                <span>Lorem, ipsum dolor.</span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                       <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+
+                               <span> Lorem, ipsum dolor.</span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                              </svg>
+
+                              <span>  Lorem ipsum dolor sit. </span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                          </svg>
+
+                                <span>Lorem ipsum dolor sit amet.</span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                </svg>
+
+                            <span> Lorem, ipsum dolor.</span>
+
+                            </li>
+                         </ul>
+                         </div>
+                    <div class="p-3 border-4 rounded-3xl border-indigo-500">
+                        <h3 class="text-2xl font-semibold mb-8">Lorem, ipsum dolor.</h3>
+                        <p class="mb-8">Lorem ipsum dolor sit amet consectetur.</p>
+                         <p class="mb-8"><span class="text-5xl font-bold font-mono ">30$</span>/month</p>
+                         <a href=""class="bg-indigo-500 block px-5 py-3 rounded-lg text-center w-full text-white font-sans hover:bg-indigo-700 mb-8">Buy Plan</a>
+                         <ul>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+
+                                
+                                <span>Lorem, ipsum dolor.</span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                       <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+
+                               <span> Lorem, ipsum dolor.</span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                              </svg>
+
+                              <span>  Lorem ipsum dolor sit. </span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                          </svg>
+
+                                <span>Lorem ipsum dolor sit amet.</span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                </svg>
+
+                            <span> Lorem, ipsum dolor.</span>
+
+                            </li>
+                         </ul>
+                         </div>
+                    <div class="p-3 border rounded-3xl">
+                        <h3 class="text-2xl font-semibold mb-8">Lorem, ipsum dolor.</h3>
+                        <p class="mb-8">Lorem ipsum dolor sit amet consectetur.</p>
+                         <p class="mb-8"><span class="text-5xl font-bold font-mono ">40$</span>/month</p>
+                         <a href=""class="bg-indigo-500 block px-5 py-3 rounded-lg text-center w-full text-white font-sans hover:bg-indigo-700 mb-8">Buy Plan</a>
+                         <ul>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+
+                                
+                                <span>Lorem, ipsum dolor.</span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                       <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+
+                               <span> Lorem, ipsum dolor.</span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                              </svg>
+
+                              <span>  Lorem ipsum dolor sit. </span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                          </svg>
+
+                                <span>Lorem ipsum dolor sit amet.</span>
+
+                            </li>
+                            <li class="mb-5 flex items-center gap-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-indigo-500 ">
+                               <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                </svg>
+
+                            <span> Lorem, ipsum dolor.</span>
+
+                            </li>
+                         </ul>
+                         </div>
+               
+                 </div>
+                 </div>
+                
+      </section>
+      <!-- Shop Us -->
+      <section id="product">
+        <div class=" container mx-auto py-20 px-3 md:px-20">
+            <h3 class="text-xl flex items-center gap-3 font-semibold mb-5">
+                <div class="bg-indigo-500 w-12 py-px flex items-center"></div>
+                <span class="font-bold text-2xl font-mono">Shop Us</span>
+                </h3>
+                <div class="flex flex-col md:flex-row gap-5">
+                 <h1 class="text-5xl text-cyan-600 basis-1/2 text-semibold">Lorem,<br> ipsum dolor.</h1>
+                 <p class="font-sans basis-1/2 md:text-right text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, veniam distinctio maiores esse vero optio saepe consequatur neque maxime cupiditate molestiae, voluptatum asperiores? Sunt amet culpa consequuntur eos facere.</p>
+                 </div>
+                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-10 gap-5">
+                    <div class="border rounded-3xl overflow-hidden">
+                          <div class="overflow-hidden">
+                        <img src="/img/shirt5.jpg" alt=""class="w-full hover:scale-110 transition duration-500">
+
+                          </div>                        
+                         <div class="p-5 flex flex-col lg:flex-row justify-between lg:items-center">
+                            <div>
+                                <h3 class="text-xl font-semibold">Lorem, ipsum.</h3>
+                                <P>20$</P>
+                               
+                            </div>
+                            <a href=""class="bg-indigo-500 py-2 px-5 rounded-xl text-white hover:bg-indigo-700" >Buy Now</a>
+                         </div>
+                
+                         </div>
+                  
+                    <div class="border rounded-3xl overflow-hidden">
+                          <div class="overflow-hidden">
+                        <img src="/img/shirt4.jpg" alt=""class="w-full hover:scale-110 transition duration-500">
+
+                          </div>                        
+                         <div class="p-5 flex flex-col lg:flex-row justify-between lg:items-center">
+                            <div>
+                                <h3 class="text-xl font-semibold">Lorem, ipsum.</h3>
+                                <P>60$</P>
+                               
+                            </div>
+                            <a href=""class="bg-indigo-500 py-2 px-5 rounded-xl text-white hover:bg-indigo-700" >Buy Now</a>
+                         </div>
+                
+                         </div>
+                  
+                    <div class="border rounded-3xl overflow-hidden">
+                          <div class="overflow-hidden">
+                        <img src="/img/shirt1.jpg" alt=""class="w-full hover:scale-110 transition duration-500">
+
+                          </div>                        
+                         <div class="p-5 flex flex-col lg:flex-row justify-between lg:items-center">
+                            <div>
+                                <h3 class="text-xl font-semibold">Lorem, ipsum.</h3>
+                                <P>40$</P>
+                               
+                            </div>
+                            <a href=""class="bg-indigo-500 py-2 px-5 rounded-xl text-white hover:bg-indigo-700" >Buy Now</a>
+                         </div>
+                
+                         </div>
+                  
+                    <div class="border rounded-3xl overflow-hidden">
+                          <div class="overflow-hidden">
+                        <img src="/img/shirt2.jpg" alt=""class="w-full hover:scale-110 transition duration-500">
+
+                          </div>                        
+                         <div class="p-5 flex flex-col lg:flex-row justify-between lg:items-center">
+                            <div>
+                                <h3 class="text-xl font-semibold">Lorem, ipsum.</h3>
+                                <P>24$</P>
+                               
+                            </div>
+                            <a href=""class="bg-indigo-500 py-2 px-5 rounded-xl text-white hover:bg-indigo-700" >Buy Now</a>
+                         </div>
+                
+                         </div>
+                  
+               
+                 </div>
+                
+      </section>
+      <!-- Contact Us-->
+    <section id="contact">
+        <div class="container mx-auto py-20 px-3 md:px-20">
+            <h3 class="text-xl flex items-center gap-3 font-semibold mb-5">
+                <div class="bg-indigo-500 w-12 py-px flex items-center"></div>
+                <span class="font-bold text-2xl font-mono">Contact Us</span>
+                </h3>
+                <div class="flex flex-col md:flex-row gap-5">
+                 <h1 class="text-5xl text-cyan-600 basis-1/2 text-semibold">Lorem,<br> ipsum dolor.</h1>
+                 <p class="font-sans basis-1/2 md:text-right text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, veniam distinctio maiores esse vero optio saepe consequatur neque maxime cupiditate molestiae, voluptatum asperiores? Sunt amet culpa consequuntur eos facere.</p>
+                 </div>
+                 <div class="mt-10 flex flex-col md:flex-row gap-5 md:items-center">
+                   <div class="basis-1/2 ">
+                    <ul>
+                      <li class="mb-5 flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                          <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                          <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                        <span>Yangon, Myanmar</span>
+                      </li>
+                      <li class="mb-5 flex gap-3 items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                          <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                        </svg>
+                        <span>09 123 456 789</span>
+                      </li>
+                      <li class="mb-5 flex gap-3 items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                        </svg>
+                        <span>info.rhythm@gmail.com</span>
+                      </li>
+                    </ul>
+                  
+                         <input type="email"placeholder="Enter email" class="relative rounded-xl p-4 border-2 focus:outline-0 focus:border-indigo-500 w-full md:w-80">
+                        
+                           <button type="button" class="relative right-28 focus:outline-none text-white bg-purple-600 hover:bg-purple-500 focus:ring-4 focus:ring-purple-500 font-medium text-sm px-5 py-2.5 mb-2 dark:bg-purple-100 dark:hover:bg-purple-300 dark:focus:ring-purple-900 rounded-3xl">Subscrib</button>
+                        
+                        
+                  
+                 
+                   </div>
+                   <div class="border basis-1/2 ">
+                    <img src="/img/map.jpg" alt="map" class="w-full object-cover rounded-3xl" style="height: 350px;">
+                   </div>
+                 </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="container mx-auto py-20 px-10">
+          <p class="text-center text-xl font-serif">&copy;Copyright and all right reserved by Meguro Ren</p>
+        </div>
+      </footer> 
+      <!-- Flowbite -->
+      <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
